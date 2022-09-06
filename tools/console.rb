@@ -20,5 +20,12 @@ kenyacinema = Venue.new("Kenya Cinema", "Nairobi")
 imax = Venue.new("Imax", "Nairobi")
 nairobiBaptist = Venue.new("Nairobi Baptist", "ValleyRoad")
 daystaruniversity = Venue.new("Daystar University", "ValleyRoad")
+
+concert = Concert.new("2022-08-02", hillsong, nairobiBaptist)
+concerta = Concert.new("2022-2-15", alabama, kenyacinema)
+concertb = Concert.new("2022-4-20", midsouth, imax)
+concertc = Concert.new("2022-9-05", alabama, kenyacinema)
+concertd = Concert.new("2022-10-15", cityAlight, daystaruniversity)
+concerte = Concert.new("2023-01-01", hillsong, daystaruniversity)
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line

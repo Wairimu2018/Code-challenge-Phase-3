@@ -1,6 +1,6 @@
 class Concert
     attr_reader :band
-    attr_accessor : Concerts
+    attr_accessor :Concerts
 
     @all = []
 
@@ -14,5 +14,13 @@ class Concert
         def self.all
             @all
         end
+
+def hometown_show?
+self.band.hometown == self.venue.city
+end
+
+def introduction
+"Hello #{venue.city}!!!!!, we are #{band.name} and we're from #{band.hometown}"
+end
 end
 
