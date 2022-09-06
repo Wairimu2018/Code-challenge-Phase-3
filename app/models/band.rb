@@ -1,6 +1,7 @@
 class Band
     attr_accessor :name
     attr_reader :hometown
+
     @@all = []
 
     def initialize(name, hometown)
@@ -8,8 +9,9 @@ class Band
         @hometown = hometown
         @@all << self
     end
-
+    
     def self.all
         @@all
     end
 end
+
